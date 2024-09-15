@@ -26,7 +26,7 @@ const Hero = () => {
             <Button text={`Whitepaper`} />
           </div>
 
-          <div className="bg-[#ffa800] pt-[1rem] relative max-w-[500px] mx-auto">
+          <div className="bg-[#ffa800] pt-[1rem] mt-[3rem] relative max-w-[500px] mx-auto">
             <div className="flex justify-center bg-[#fff] w-[50px] mx-auto p-[0.5rem] rounded-full absolute right-0 left-0 top-[-30%]  ">
               <img src={detailsImg} className="" />
             </div>

@@ -28,6 +28,7 @@
   background: #4e4e4e;
   /* border-radius: 6px; */
   padding: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .btn {
@@ -38,7 +39,8 @@
     #964c1e 94.19%
   );
   background-blend-mode: hard-light;
-padding: 0.8rem;
+  padding: 0.8rem;
+  font-size: 0.7rem;
 }
 
 @media screen and (min-width: 913px) {
@@ -63,5 +65,10 @@ padding: 0.8rem;
     font-size: 1.3rem;
 
     margin-top: -1.5rem;
+  }
+  .address {
+  }
+
+  .btn {
   }
 }

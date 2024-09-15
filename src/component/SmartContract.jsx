@@ -20,7 +20,7 @@ const SmartContract = () => {
         <div className={`contentContainer flex flex-col items-center`}>
           <h2 className={`title text-[#3B2621]`}>Smart Contract</h2>
 
-          <div className=" pt-[1rem] relative max-w-[600px] mx-auto">
+          <div className=" pt-[1rem] max-w-[600px]  mx-auto">
             <div className="flex justify-center ">
               <img src={smartContractBigImage} className="w-[100%]" />
             </div>
@@ -40,7 +40,7 @@ const SmartContract = () => {
               </div>
 
               <p className="text-center">Contract address</p>
-              <div className={`flex items-center justify-center`}>
+              <div className={`flex items-center justify-center w-full`}>
                 <p className={`${styles.address}`}>
                   0xa7F4195F10F1a62B102bD683eAB131d657A6c6e4
                 </p>
