@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Liquidity.module.css";
 import Button from "./Button";
+import { liquidity, liquidityImage } from "../assets";
 
 const Liquidity = () => {
   return (
     <section className={`section ${styles.liquiditySection}`}>
+      <div className={`mt-[-7rem] flex justify-center`}>
+        <img src={liquidityImage} className={`w-[200px]`} />
+      </div>
       <div className={`sectionContainer`}>
         <div className={`contentContainer flex flex-col items-center`}>
           <h2 className={`title text-[#3B2621]`}>
@@ -22,9 +26,13 @@ const Liquidity = () => {
             will skyrocket, making every coin you own a true gem worth keeping!
           </p>
 
-          <div className={`${styles.details}`}>
+          {/* <div className={`${styles.details}`}>
             <p className="text-[0.6rem]">Initial Listing Liquidity</p>
             <p className={`${styles.detailsTitle} `}>$1,000,000.00</p>
+          </div> */}
+
+          <div>
+            <img src={liquidity} />
           </div>
 
           <Button colored text={`Check Wallets`} />

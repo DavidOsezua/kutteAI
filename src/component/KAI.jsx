@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "./KAI.module.css";
 import Button from "./Button";
-import { KaiImage } from "../assets";
+import { KaiImage, kaiSmallImage } from "../assets";
 
 const KAI = () => {
   return (
     <section className={`section ${styles.kaiSection}`}>
+      <div className={`mt-[-7rem] flex justify-center`}>
+        <img src={kaiSmallImage} className={`w-[200px]`} />
+      </div>
       <div className={`sectionContainer`}>
         <div className={`contentContainer flex flex-col items-center`}>
           <h2 className={`title text-[#3B2621]`}>Kutte Ai $KAI</h2>

@@ -16,7 +16,7 @@
 }
 
 .heroContainer > * + * {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .imageContainer {
@@ -51,11 +51,11 @@
 
 .detailsCard {
   display: flex;
-  background-color: #ffa800;
+  /* background-color: #ffa800; */
   color: #fff;
-  max-width: 500px;
+  /* max-width: 500px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   gap: 1rem;
   justify-content: space-between;
   padding: 1rem 1rem;
@@ -74,7 +74,7 @@
 
 @media screen and (min-width: 913px) {
   .heroContainer > * + * {
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
   }
   .detailsText {
     font-size: 1rem;

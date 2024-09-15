@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "./Earn.module.css";
 import Button from "./Button";
-import { earnImage } from "../assets";
+import { earnImage, logo } from "../assets";
 
 const Earn = () => {
   return (
     <section className={`section ${styles.earnSection}`}>
+      <div
+        className={`mt-[-7rem] flex justify-center bg-[#fff] w-[200px] p-[1rem] rounded-full mx-auto `}
+      >
+        <img src={logo} className={`w-[200px]`} />
+      </div>
       <div className={`sectionContainer`}>
         <div className={`contentContainer flex flex-col items-center`}>
           <h2 className={`title text-[#3B2621]`}>

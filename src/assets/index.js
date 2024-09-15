@@ -29,6 +29,18 @@ import financeFeeds from "./financeFeeds.png";
 import yahoo from "./yahoo.png";
 import KaiImage from "./kaiImage.png";
 import earnImage from "./earnImage.png";
+import updateImage from "./updateImage.png";
+import communityImage from "./communityImage.png";
+import detailsImg from "./detailsImg.png";
+import kaiSmallImage from "./kaiSmallImage.png";
+import liquidity from "./liquidity.png";
+import liquidityImage from "./liquidityImage.png";
+import spaceImage from "./spaceImage.png";
+import spaceSmallImage from "./spaceSmallImage.png";
+import patnersImage from "./patnersImage.png";
+import sponsorsImg from "./sponsorsImg.png";
+import smartContractSmallImage from "./smartContractSmallImage.png";
+import smartContractBigImage from "./smartContractBigImage.png";
 
 export {
   logo,
@@ -62,4 +74,16 @@ export {
   yahoo,
   KaiImage,
   earnImage,
+  updateImage,
+  communityImage,
+  detailsImg,
+  kaiSmallImage,
+  liquidity,
+  liquidityImage,
+  spaceImage,
+  spaceSmallImage,
+  patnersImage,
+  sponsorsImg,
+  smartContractSmallImage,
+  smartContractBigImage,
 };

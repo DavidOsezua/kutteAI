@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./SpaceGuard.module.css";
 import Button from "./Button";
+import { spaceImage, spaceSmallImage } from "../assets";
 
 const SpaceGuard = () => {
   return (
     <section className={`section ${styles.spaceSection}`}>
+      <div className={`mt-[-7rem] flex justify-center`}>
+        <img src={spaceSmallImage} className={`w-[200px]`} />
+      </div>
       <div className={`sectionContainer`}>
         <div className={`contentContainer flex flex-col items-center`}>
           <h2 className={`title text-[#0F82D9]`}>Space Guard</h2>
@@ -18,6 +22,10 @@ const SpaceGuard = () => {
             liquidity wallet each day, ensuring we are fully prepared for a
             smooth and successful launch!
           </p>
+
+          <div>
+            <img src={spaceImage} />
+          </div>
 
           <div className={`flex gap-3`}>
             <Button colored text={`Audit Report`} />

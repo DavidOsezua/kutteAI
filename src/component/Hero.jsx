@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { logo } from "../assets";
+import { detailsImg, logo } from "../assets";
 import Button from "./Button";
 
 const Hero = () => {
@@ -26,16 +26,21 @@ const Hero = () => {
             <Button text={`Whitepaper`} />
           </div>
 
-          <div className={`${styles.detailsCard}`}>
-            <p className={`${styles.detailsTitle}`}>Staked</p>
-            <div>
-              <p className={`${styles.detailsText}`}>Total Stake</p>
-              <p className={`${styles.detailsTitle}`}>15,766,383,366 KAI</p>
+          <div className="bg-[#ffa800] pt-[1rem] relative max-w-[500px] mx-auto">
+            <div className="flex justify-center bg-[#fff] w-[50px] mx-auto p-[0.5rem] rounded-full absolute right-0 left-0 top-[-30%]  ">
+              <img src={detailsImg} className="" />
             </div>
+            <div className={`${styles.detailsCard}`}>
+              <p className={`${styles.detailsTitle}`}>Staked</p>
+              <div>
+                <p className={`${styles.detailsText}`}>Total Stake</p>
+                <p className={`${styles.detailsTitle}`}>15,766,383,366 KAI</p>
+              </div>
 
-            <div>
-              <p className={`${styles.detailsText}`}>Apy</p>
-              <p className={`${styles.detailsTitle}`}>50%</p>
+              <div>
+                <p className={`${styles.detailsText}`}>Apy</p>
+                <p className={`${styles.detailsTitle}`}>50%</p>
+              </div>
             </div>
           </div>
         </div>
