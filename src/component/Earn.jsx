@@ -18,17 +18,18 @@ const Earn = () => {
             Kutte Ai Referrals!
           </h2>
           <p className={`text text-[#fff]`}>
-            Invite friends to join the kutte Ai journey with your referral code!
-            When they make a purchase of $25 or more, they’ll get an extra 50%
-            in coins as a bonus.
+            Invite friends to join the Kutte AI journey using your referral
+            code! For every purchase of $10 or more made through your code, you
+            will earn 1,000 points in referral bonuses and climb the
+            leaderboard.
           </p>
 
           <p className={`text text-[#fff]`}>
-            Plus, every purchase through your code adds up, pushing you up the
-            leaderboard. The top 20 referrers at the end of the month will win a
-            special bonus: 10% of the total value purchased using their code,
-            paid in $KAI coins, calculated at the launch price of $0.003. The
-            more you refer, the more you earn—get in the race to the top!
+            During the launch, the top 100 referrers will be rewarded with a
+            special bonus: 10% of the total value generated through their code,
+            paid in $KAI coins, based on the launch price of $0.003. The more
+            you refer, the more you earn—get in the race to the top and maximize
+            your rewards!
           </p>
 
           <div>

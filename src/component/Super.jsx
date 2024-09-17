@@ -10,16 +10,10 @@ const Super = () => {
         <div className={`${styles.colContainer}`}>
           <div className={`${styles.firstCol} `}>
             <div className={`${styles.textContainer}`}>
-              <h2>A Super Cute Meme Coin</h2>
+              <h2>Cute watch guard meme coin</h2>
               <p>
-                Get ready to blast off with Kutte Ai—the cutest and most
-                thrilling new meme coin in the crypto universe! 🚀✨ Join the
-                Kutte Ai mission today and secure your seat for a wild ride to
-                the moon. <br />
-                <span className={`font-bold text-[#3A3A3A]`}>
-                  Don't miss out on the excitement—your Kutte Ai adventure
-                  starts now!
-                </span>
+                A blockchain watchdog ensuring transparency and security,
+                blending governance with meme culture and playful engagement.
               </p>
             </div>
           </div>
