@@ -13,8 +13,16 @@ const Community = () => {
           <p>Join Now</p>
 
           <div className={`flex gap-3 items-center pb-[4rem]`}>
-            <Button colored text={`Telegram`} />
-            <Button colored text={`Twitter(x)`} />
+            <a href="https://t.me/KutteAIToken" target="_blank">
+              <Button colored text={`Telegram`} />
+            </a>
+
+            <a
+              href="https://x.com/KutteAI?t=yMDjpmUM47z-q7xvQmv1gA&s=08"
+              target="_blank"
+            >
+              <Button colored text={`Twitter(x)`} />
+            </a>
           </div>
 
           <div className="absolute right-[0] bottom-[0] transform -translate-y-1/2 w-[150px]">
