@@ -5,7 +5,7 @@ import { earnImage, logo } from "../assets";
 
 const Earn = () => {
   return (
-    <section className={`section ${styles.earnSection}`}>
+    <section className={`section ${styles.earnSection} `}>
       <div
         className={`mt-[-7rem] flex justify-center bg-[#fff] w-[200px] p-[1rem] rounded-full mx-auto `}
       >

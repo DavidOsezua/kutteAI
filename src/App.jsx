@@ -13,6 +13,8 @@ import Patners from "./component/Patners";
 import Updates from "./component/Updates";
 import Community from "./component/Community";
 import Footer from "./component/Footer";
+import CurrentPresale from "./component/CurrentPresale";
+import AboutKai from "./component/AboutKai";
 
 const App = () => {
   return (
@@ -20,8 +22,11 @@ const App = () => {
       <Navbar />
       <Hero />
       <Super />
+
       <Earn />
+      <CurrentPresale />
       <KAI />
+      <AboutKai />
       <Liquidity />
       <SpaceGuard />
       <Roadmap />

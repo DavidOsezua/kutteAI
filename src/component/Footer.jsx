@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={`${styles.logoMenu}`}>
           <div className="flex flex-col items-center gap-5 pb-5">
             <div
-              className={` flex justify-center bg-[#fff] w-[200px] p-[1rem] rounded-full mx-auto `}
+              className={` flex justify-center bg-[#fff] w-[120px] p-[1rem] rounded-full mx-auto `}
             >
               <img src={logo} className={`w-[200px]`} />
             </div>

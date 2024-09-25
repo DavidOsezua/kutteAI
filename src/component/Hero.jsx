@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className={styles.section}>
+    <section className={`${styles.section} section`}>
       <div className={styles.hero}>
         <div className={`${styles.heroContainer} sectionContainer`}>
           <div className={`${styles.imageContainer}`}>

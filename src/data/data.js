@@ -1,18 +1,22 @@
 import {
   adobe,
   analytics,
+  autoTrading,
   aws,
   binance,
   bitcoin,
   blockonomi,
   bloomberg,
   bnb,
+  buyBack,
   chain,
+  ChainTrading,
   cloudflare,
   coincodex,
   coinTelegraph,
   crypto,
   dailyCoin,
+  decentralized,
   dell,
   eth,
   finance,
@@ -22,6 +26,8 @@ import {
   ibm,
   metamask,
   microsoft,
+  PresaleGain,
+  Profits,
   sql,
   trust,
   usdc,
@@ -112,4 +118,37 @@ export const patners = [
   { image: financeFeeds },
   { image: bitcoin },
   { image: analytics },
+];
+
+export const kai = [
+  {
+    title: "Kutte Ai-Free Profits",
+    svg: Profits,
+    text: "No active trading needed! Simply hold the tokens and watch your gains grow.",
+  },
+  {
+    title: "Decentralized Hedge Fund",
+    svg: decentralized,
+    text: "Operates on its own and shares profits directly with the community of token holders",
+  },
+  {
+    title: "Auto-Trading AI Bot",
+    svg: autoTrading,
+    text: "The AI takes care of it all, essentially doing everything an expert trader would do.",
+  },
+  {
+    title: "Buy Back & Burn Cycle",
+    svg: buyBack,
+    text: "It turns back its own tokens, steadily reducing the supply and increasing their value.",
+  },
+  {
+    title: "20x Gain for Pre-Sale",
+    svg: PresaleGain,
+    text: "The pre-sale allows you to get tokens starting at 0.0002 each, increasing after every buy back and burn. They will be publicly listed on uniswap for $0.003 per token",
+  },
+  {
+    title: "24/7 Blockchain Trading",
+    svg: ChainTrading,
+    text: "The AI bot executes accurate trades round-the-clock on top cryptocurrencies",
+  },
 ];

@@ -41,6 +41,13 @@ import patnersImage from "./patnersImage.png";
 import sponsorsImg from "./sponsorsImg.png";
 import smartContractSmallImage from "./smartContractSmallImage.png";
 import smartContractBigImage from "./smartContractBigImage.png";
+import plane from "./plane.png";
+import ChainTrading from "./ChainTrading.png";
+import autoTrading from "./autoTrading.png";
+import Profits from "./Profits.png";
+import decentralized from "./decentralized.png";
+import buyBack from "./buyBack.png";
+import PresaleGain from "./PresaleGain.png";
 
 export {
   logo,
@@ -86,4 +93,11 @@ export {
   sponsorsImg,
   smartContractSmallImage,
   smartContractBigImage,
+  plane,
+  buyBack,
+  PresaleGain,
+  Profits,
+  autoTrading,
+  ChainTrading,
+  decentralized,
 };
