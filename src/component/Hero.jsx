@@ -27,9 +27,10 @@ const Hero = () => {
           </div>
 
           <div className="bg-[#ffa800] pt-[1rem] mt-[3rem] relative max-w-[500px] mx-auto">
-            <div className="flex justify-center bg-[#fff] w-[50px] mx-auto p-[0.5rem] rounded-full absolute right-0 left-0 top-[-30%]  ">
+            <div className="flex justify-center w-[80px] mx-auto p-[0.5rem] rounded-full absolute right-0 left-0 top-0 transform -translate-y-1/2">
               <img src={detailsImg} className="" />
             </div>
+
             <div className={`${styles.detailsCard}`}>
               <p className={`${styles.detailsTitle}`}>Staked</p>
               <div>

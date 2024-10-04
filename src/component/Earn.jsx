@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Earn.module.css";
 import Button from "./Button";
 import { earnImage, logo } from "../assets";
+import { useModal } from "../App";
+import Modal from "./Modal";
+import Staking from "./Staking";
 
 const Earn = () => {
+  const [modal, setModal] = useState(false);
+  // const [button, setButton] = useState(null);
+
+  const modalHandler = () => {
+    setModal(!modal);
+  };
+
+  console.log(modal);
+
   return (
     <section className={`section ${styles.earnSection} `}>
       <div
-        className={`mt-[-7rem] flex justify-center bg-[#fff] w-[200px] p-[1rem] rounded-full mx-auto `}
+        className={`mt-[-5rem] md:mt-[-7rem] flex justify-center bg-[#fff] w-[100px] md:w-[200px] p-[1rem] rounded-full mx-auto `}
       >
         <img src={logo} className={`w-[200px]`} />
       </div>
@@ -35,9 +47,25 @@ const Earn = () => {
           <div>
             <img src={earnImage} className="w-[300px]" />
           </div>
-          <Button colored text={`Start Referring`} />
+          <Button
+            colored
+            text={`Start Referring`}
+            clickFunction={modalHandler}
+          />
         </div>
       </div>
+
+      {modal && (
+        <Modal modalHandler={modalHandler}>
+          <div className={`sectionContainer `}>
+            <div className={`contentContainer bg-[#fff]`}>
+              <p className={`text mt-0 text-[1.7rem] font-bold text-[#3B2621]`}>
+                Share Your Referal code. A7XK9PZ3
+              </p>
+            </div>
+          </div>
+        </Modal>
+      )}
     </section>
   );
 };

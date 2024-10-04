@@ -26,11 +26,6 @@ const SpaceGuard = () => {
           <div>
             <img src={spaceImage} />
           </div>
-
-          <div className={`flex gap-3`}>
-            <Button colored text={`Audit Report`} />
-            <Button text={`KYC`} />
-          </div>
         </div>
       </div>
     </section>

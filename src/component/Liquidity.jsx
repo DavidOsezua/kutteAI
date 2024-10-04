@@ -34,8 +34,6 @@ const Liquidity = () => {
           <div>
             <img src={liquidity} />
           </div>
-
-          <Button colored text={`Check Wallets`} />
         </div>
       </div>
     </section>

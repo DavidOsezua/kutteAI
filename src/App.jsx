@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useContext, useState } from "react";
 import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import Super from "./component/Super";
@@ -15,15 +15,24 @@ import Community from "./component/Community";
 import Footer from "./component/Footer";
 import CurrentPresale from "./component/CurrentPresale";
 import AboutKai from "./component/AboutKai";
+import Modal from "./component/Modal";
+
+const ModalContext = createContext();
+
+export const useModal = () => {
+  useContext(ModalContext);
+};
 
 const App = () => {
+
   return (
     <>
       <Navbar />
       <Hero />
-      <Super />
 
+      <Super />
       <Earn />
+
       <CurrentPresale />
       <KAI />
       <AboutKai />

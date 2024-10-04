@@ -31,6 +31,7 @@
   border-bottom-right-radius: 30px;
   padding: 1rem;
   display: flex;
+  height: 292.92px;
   flex-direction: column;
 }
 
@@ -56,7 +57,7 @@
   line-height: 2.5rem;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 560px) {
   .firstCol {
     padding-left: 1rem;
     padding-right: 1rem;
