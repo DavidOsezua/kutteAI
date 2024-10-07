@@ -1,16 +1,23 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { detailsImg, logo } from "../assets";
+import { detailsImg, logo, smImg } from "../assets";
 import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className={`${styles.section} section`}>
-      <div className={styles.hero}>
+    <section className={`${styles.section} relative section `}>
+      <div className={`${styles.hero} `}>
         <div className={`${styles.heroContainer} sectionContainer`}>
           <div className={`${styles.imageContainer}`}>
             <img src={logo} alt="heroImage" />
           </div>
+
+          <img src={smImg} alt="coin" className={styles.coin} />
+          <img src={smImg} alt="coin" className={styles.coin2} />
+          <img src={smImg} alt="coin" className={styles.coin3} />
+          <img src={smImg} alt="coin" className={styles.coin4} />
+          <img src={smImg} alt="coin" className={styles.coin5} />
+          <img src={smImg} alt="coin" className={styles.coin6} />
 
           <div>
             <h1 className={`${styles.heroTitle}`}>KUTTE AI</h1>
