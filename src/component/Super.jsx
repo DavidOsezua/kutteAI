@@ -181,11 +181,11 @@ const Super = () => {
           <HowToBuy />
         </Modal>
       )}
-      {modal && button === "Staking" && (
+      {/* {modal && button === "Staking" && (
         <Modal modalHandler={modalHandler}>
           <Staking />
         </Modal>
-      )}
+      )} */}
     </>
   );
 };

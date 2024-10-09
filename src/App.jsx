@@ -16,6 +16,7 @@ import Footer from "./component/Footer";
 import CurrentPresale from "./component/CurrentPresale";
 import AboutKai from "./component/AboutKai";
 import Modal from "./component/Modal";
+import Staking from "./component/Staking";
 
 const ModalContext = createContext();
 
@@ -24,7 +25,6 @@ export const useModal = () => {
 };
 
 const App = () => {
-
   return (
     <>
       <Navbar />
@@ -43,6 +43,7 @@ const App = () => {
       <Sponsors />
       <Patners />
       <Updates />
+      <Staking />
       <Community />
       <Footer />
     </>

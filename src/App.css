@@ -22,7 +22,7 @@ h6 {
 
 .sectionContainer {
   padding-top: 3rem;
-  width: 100%;
+  /* width: 100%; */
   max-width: 940px;
   margin: 0 auto;
   padding-bottom: 6rem;
@@ -54,10 +54,10 @@ h6 {
 .contentContainer > * + * {
   margin-top: 2rem;
 }
-
+/* 
 span {
   color: #c32fb4;
-}
+} */
 
 @keyframes transitionIn {
   from {
