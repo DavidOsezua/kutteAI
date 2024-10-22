@@ -20,7 +20,7 @@ const HowToBuy = () => {
               like a meteor hurtling through space, and add the Metamask
               extension to your browser. Follow the celestial steps to create
               your wallet. Guard your private key as if it's the rarest gem in
-              the universe – it's what keeps your MoonBag securely tethered to
+              the universe – it's what keeps your KAI securely tethered to
               your cosmic exploration!
             </p>
           </div>
@@ -35,20 +35,20 @@ const HowToBuy = () => {
               fuel! Send some Ethereum (ETH) or your preferred crypto from your
               crypto stash to your Metamask wallet. Alternatively, you can
               purchase ETH, USDT, or BNB directly through Metamask. These
-              digital rockets will power your journey to claim your MoonBag
+              digital rockets will power your journey to claim your KAI
               coins
             </p>
           </div>
           <div>
             <h2 className="title  text-center text-[#3B2621] "> STEP 3 </h2>
             <h3 className={`text mt-0 text-[1.2rem] text-[#3B2621]`}>
-              Snag Your MoonBag and Stake like a Pro!
+              Snag Your KAI and Stake like a Pro!
             </h3>
 
             <p className="text mt-0 text-[1.2rem] text-[#3B2621]">
               (Ethereum, USDT, BNB, or many more!) Eager to get your paws on
-              MoonBag? Head over to our official website for an exclusive
-              Presale experience! MoonBag tokens are like hidden treasures,
+             KAI? Head over to our official website for an exclusive
+              Presale experience! KAI tokens are like hidden treasures,
               found only here. Take your pick from Ethereum, USDT, BNB, or many
               other other popular cryptos – it's all about your vibe. Grab those
               tokens and dive into staking on our platform. Get ready to watch
@@ -63,9 +63,9 @@ const HowToBuy = () => {
 
             <p className="text mt-0 text-[1.2rem] text-[#3B2621]">
               Now comes the epic moment! Once the presale wraps up, claim your
-              $MBAG (MoonBag Coins) immediately. And guess what? Those juicy
+              $MBAG  KAI Coins) immediately. And guess what? Those juicy
               staking rewards you've been stacking up? They're all yours now,
-              buddy. Welcome aboard the MoonBag fam – where the crypto
+              buddy. Welcome aboard the KAI fam – where the crypto
               adventures never end!
             </p>
           </div>
