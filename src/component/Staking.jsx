@@ -9,6 +9,91 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Wallet } from "lucide-react";
+
+const HEADERS = ["Rank", "Wallet", "Referrals", "Referred Tota"];
+const data = [
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+  {
+    wallet: "0xabcf71528a...4537fed2a158",
+    referrals: "61",
+    referredTotal: "$42.09K",
+  },
+];
 
 const Staking = () => {
   return (
@@ -193,161 +278,32 @@ const Staking = () => {
             </p>
             <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
           </div>
+        </div>
+        <div className="table-responsive mt-[3rem] h-[500px] overflow-y-scroll  ">
+          <table className={`${styles.tableStyle} `}>
+            <thead>
+              <tr>
+                {HEADERS.map((th, index) => (
+                  <th className={`${styles.thStyle}`} key={index}>
+                    {th}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((item, index) => (
+                <tr key={item.id} className={`h-[70px]`}>
+                  <td className={`${styles.tdStyle}`}>{index + 1}</td>
 
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
+                  <td className={`${styles.tdStyle}`}>{item.wallet}</td>
 
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
-          <div className="flex justify-between items-center">
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              0xd5d2...90bc
-            </p>
-            <p className="text-[#FBB58A] text-[0.8rem] md:text-[1.2rem]">
-              10,000 KAI
-            </p>
-            <p className="text-[0.8rem] md:text-[1.2rem]">18 hours ago</p>
-          </div>
+                  <td className={`${styles.tdStyle} `}>{item.referrals}</td>
+
+                  <td className={`${styles.tdStyle}`}>{item.referredTotal}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
